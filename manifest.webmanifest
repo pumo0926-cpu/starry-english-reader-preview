@@ -1,0 +1,12 @@
+{
+  "name": "星光英语原著馆",
+  "short_name": "星光原著馆",
+  "description": "面向儿童的英文原著阅读、跟读与练习工具",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4f0e6",
+  "theme_color": "#18332f",
+  "icons": [
+    { "src": "assets/demo-cover.webp", "sizes": "any", "type": "image/webp", "purpose": "any" }
+  ]
+}
