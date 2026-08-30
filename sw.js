@@ -1,4 +1,4 @@
-const CACHE = 'starry-reader-v3'
+const CACHE = 'starry-reader-v4'
 const BASE = new URL(self.registration.scope).pathname.replace(/\/$/, '')
 const scoped = (path) => `${BASE}${path}`
 const APP_SHELL = [scoped('/'), scoped('/manifest.webmanifest'), scoped('/assets/demo-cover.webp'), scoped('/assets/demo-illustration.webp'), scoped('/assets/demo-chapter.mp3'), scoped('/books/arthur-meets-the-president/pages/page-01.webp')]
